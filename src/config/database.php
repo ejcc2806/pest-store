@@ -2,12 +2,12 @@
     
     $host         = "localhost";
     $port         = "5432";
-    $dbname       = "";
+    $dbname       = "petstore";
     $user         = "postgres";
-    $password     = "";
+    $password     = "#*JoSaJe280600#*";
 
 
-    $conn = "
+    $data_connection = "
         host=$host
         port=$port
         dbname=$dbname
@@ -19,7 +19,7 @@
     if(!$conn){
         echo "Connection error";
     }else{
-        echo "Success"
+        echo "Success";
     }
 
 
