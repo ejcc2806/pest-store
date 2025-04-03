@@ -1,5 +1,5 @@
 <?php
-    include('config/database.php');´
+    include('config/database.php');
 
     $fname = $_POST['f_name'];
     $lname = $_POST['l_name'];
