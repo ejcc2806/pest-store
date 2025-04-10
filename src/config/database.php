@@ -1,12 +1,18 @@
 <?php
-    
+    $host         = "aws-0-us-east-1.pooler.supabase.com";
+    $port         = "6543";
+    $dbname       = "postgres";
+    $user         = "postgres.jgrlgbfqbxguuzhggtrp";
+    $password     = "#*JoSaJe280600#*";
+
+    /*
     $host         = "localhost";
     $port         = "5432";
     $dbname       = "petstore";
     $user         = "postgres";
     $password     = "#*JoSaJe280600#*";
-
-
+    */
+    
     $data_connection = "
         host=$host
         port=$port
