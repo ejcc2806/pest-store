@@ -1,4 +1,5 @@
 <?php
+//supabase db connection
     $host         = "aws-0-us-east-1.pooler.supabase.com";
     $port         = "6543";
     $dbname       = "postgres";
@@ -6,6 +7,7 @@
     $password     = "#*JoSaJe280600#*";
 
     /*
+    local db connection
     $host         = "localhost";
     $port         = "5432";
     $dbname       = "petstore";
